@@ -43,7 +43,21 @@
           <div class="wera">
             <div id="dira2"></div>
             <div class="lok" id="lok">loading...</div>
-            <div id="done-message" style="display: none; font-size: 50px;">Done 🤸‍♀️🫡 <hr style="width: 100%;margin: 10px;"><div class="link-sd" style="font-size: 20px;">My WebSite link : <br><span style="font-size: 17px; color: #37afff;">talaatgamal.github.io/My-Portfolio/#customers</span></div><div class="infokm" style="font-size: 19px;">Will be added in 24 hours</div></div>
+            <div id="done-message" style="display: none; font-size: 50px;">
+              Done 🤸‍♀️🫡 
+              <hr style="width: 100%;margin: 10px;">
+              <div class="link-sd" style="font-size: 20px;">
+                My WebSite link : <br>
+                <span style="font-size: 17px; color: #37afff;">
+                  talaatgamal.github.io/My-Portfolio/#customers
+                </span>
+              </div>
+              <div class="infokm" style="font-size: 19px;">Will be added in 24 hours</div>
+            </div>
+            <div id="done-message2" style="display: none; font-size: 50px;">
+              Done 🤸‍♀️🫡 
+              <hr style="width: 100%;margin: 10px;">
+            </div>
           </div>
 
           <!-- EmailJS Library -->
@@ -61,6 +75,7 @@
             const loader = document.getElementById("dira2");
             const lok = document.getElementById("lok");
             const doneMessage = document.getElementById("done-message");
+            const doneMessage2 = document.getElementById("done-message2");
 
             // عند الضغط على "Yes"
             yesBtn.addEventListener("click", function() {
@@ -91,7 +106,7 @@
             noBtn.addEventListener("click", function() {
                 loader.style.display = "none";  // تأكد أن اللوودر مخفي
                 lok.style.display = "none";  // إخفاء اللوودر
-                doneMessage.style.display = "block";  // إظهار "Done" فورًا بدون إرسال أي شيء
+                doneMessage2.style.display = "block";  // إظهار "Done" فورًا بدون إرسال أي شيء
                 document.getElementById("remove-nm").style.display="none";
 
             });

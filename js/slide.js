@@ -35,3 +35,24 @@ const back = document.getElementById('backo');
   }
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+const vbn = document.getElementById('back-rate-m');
+
+  vbn.addEventListener('click', () => {
+
+  // document.getElementById('con-1').style.marginLeft ='470px'
+  document.querySelector(".form-v-cont2").style.marginLeft ='0px'
+
+});

@@ -52,14 +52,15 @@ body{
 }
 .form input{
   width: 100%;
-  height: 45px;
-  background-color: #005f663b;
+  height: 40px;
+  /* background-color: #005f663b; */
+  background-color: #005f6600;
   color: #cacaca;
   /* border: #ffffff solid 2px; */
   border: none;
   /* border-left: #ffffff solid 8px; */
-  border: #ffffff00 solid 8px;
-  border-left: #ffffff solid 8px;
+  /* border: #ffffff00 solid 8px;
+  border-left: #ffffff solid 8px; */
   /* border-radius: 5px 50px 0px 50px; */
   border-radius: 50px;
 
@@ -83,15 +84,15 @@ body{
   height: 100px;
   width: 100%;
   /* border-radius: 10px; */
-  background-color: #005f663b;
+  background-color: #005f6600;
   color: #ffffff;
   /* border: #ffffff solid 2px; */
   border: none;
   /* border-left: #ffffff solid 8px; */
   /* border-bottom: #007f88 solid 4px; */
-  border-radius: 5px;
-  border: #ffffff00 solid 8px;
-  border-left: #ffffff solid 8px;
+  /* border-radius: 5px; */
+  /* border: #ffffff00 solid 8px;
+  border-left: #ffffff solid 8px; */
 
   outline: none;
   padding: 10px;
@@ -146,6 +147,17 @@ body{
   color: #ffffff;
   font-size: 11px;
   width: max-content;
+}
+#dira2{
+  /* background-color: #000; */
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  border: #ff000000 solid 3px;
+  border-top: white solid 3px;
+  border-bottom: white solid 3px;
+  animation: vbn 1.5s linear infinite;
+  display: none;
 }
 #dira{
   /* background-color: #000; */
@@ -208,7 +220,7 @@ body{
 }
 .title-form-div{
   color: #ffffff;
-  width: 370px;
+  width: 360px;
   padding: 10px;
   height: 100px;
   /* padding-left: 50px; */
